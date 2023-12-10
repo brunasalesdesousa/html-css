@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagens</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+    <h1>Imagens</h1>
+   <ul> <h2>Formatos de Imagens </h2>
+        PNG - Impotância é a Qualidade<br>
+        Quando for usar uma imagem com fundo transparente por exemplo <br>
+        JPGE - Importância é a Compactação <br>
+        Quando for usar imagens compactadas/tamanho <br>
+        GIF - Transparência e animação <br>
+        GIMP - Manipulação de imagens gratuito <br>
+    <h2>Olha o Favicon abrindo aqui em cima &uparrow;</h2>
+    <h2>Testando carga e imagens</h2> 
+        <p>img src = Sorce ou Origem - onde esta a origem do arquivo<br>
+        alt = texto alternativo caso a imagem não aparaça <br>
+        Já para imagens externas: <br>
+        clica na imagem - entra na página <br>
+        Salva o endereço da imagem e copia no html onde fica o documento interno no &lt;img src&gt; <br></p>
+    <h1>Como Fazer ícone favorito que fica na aba</h1>
+        <p>Observação: Escolher imagens sem muito detalhes</p>
+       <h2>Sites:</h2> 
+            <li><a href="https://www.iconarchive.com/"target= "_blank" rel="external">IconArche.com</a></li> 
+            <li><a href="https://www.favicon.cc/"target= "_blank" rel="external">Favicon.cc</a></li> 
+            <li><a href="https://favicon.io/" target="_blank" rel="external">Favicon.io</a></li> 
+            <li><a href="https://www.google.com/search?q=html&sca_esv=577618083&tbm=isch&sxsrf=AM9HkKkEoUIhJEkhOZSSHWE-_uUhtVc2Dw:1698591160108&source=lnms&sa=X&ved=2ahUKEwi_192VwZuCAxWLq5UCHdo4APMQ_AUoAnoECAIQBA&biw=1536&bih=754&dpr=1.25"target="_blank" rel="external">Qualquer imagem da internet também </a></li>
+            
+            <p>Observação: Acima do Title colocar link e a opção favicon depois e somente preencher com o arquivo no href dentro das aspas.</p> 
+    <h2>Importante Lembrar</h2>
+        <p>1500 é a largura ideal no máximo para usar em um site</p> 
+        <p>72 é uma resolução razoavél</p> 
+        <p>Observção: Em CSS conseguimos aumentar ou diminuar a imagem mas não alterar o tamanho do arquivo</p> 
+        <h2>Abaixo você vai ver uma imagem que está na mesma pasta</h2>
+        <img src="imagens/logohtml.png" alt="Logo HTML">
+        <h2>Podemos também carregar imagens que estão em sub-pastas</h2>
+        <img src="imagens/logocss.png" alt="Logo CSS">
+        <h2>Também podemos carregar imagens externas</h2>
+        <img src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" alt="Logo JavaScript">
+
+        <h2>Sites de imagens <h2> 
+            <li><a href="https://unsplash.com/pt-br"target="_blank" rel="external">Unsplash</a> </li>
+            <li><a href="https://www.pexels.com/pt-br/"target="_blank" rel="external">Pexels</a> </li>
+            <li><a href="https://br.freepik.com/"target="_blank" rel="external">FreePik</a></li>  
+            <li><a href="https://www.rawpixel.com/"target="_blank" rel="external">Rawpixel</a></li> 
+            <li><a href="https://pixabay.com/pt/"target="_blank" rel="external">Pixabay</a></li> 
+            <li><a href="https://libreshot.com/"target="_blank" rel="external">Libreshot</a></li> 
+            <li><a href="https://commons.wikimedia.org/wiki/Main_Page"target="_blank" rel="external">Wikimedia Commons</a></li> 
+        </ul> 
+    <p><a href="index.html"rel="prev" target="_self">Voltar para Menu da Apostla</a></p>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+</main>
+</body>
+</html>
