@@ -5,31 +5,49 @@
     /*height 100%;*/
 }
 
-header {
-    
-}
 
 body {
-    background-image: linear-gradient(to right, rgb(171, 210, 234), rgb(48, 48, 137), rgb(255, 185, 197), rgb(248, 147, 223), rgb(173, 115, 14));
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(175, 222, 241, 0.936);
 }
 
+header {
+background-image: linear-gradient(to right, rgb(22, 3, 92), rgb(112, 79, 233) );
+color: white;
+padding: 10px;
+margin: auto;
+}
+nav:hover > a {
+    display: block;
+    color: rgb(16, 1, 54);
+    background-color:rgba(203, 236, 249, 0.614);
+    width: 150px;
+    padding: 5px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+header > h1 {
+    text-align: center;
+}
+header > p {
+    text-align: center;
+}
 main {
     background-color: white;
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(122, 95, 245, 0.475);
     width: 1000px;
-    padding:10px;
+    padding: 20px;
     margin: auto;
-}
-
-h1 {
-    color: rgb(48, 48, 137);
-    text-align: center;
-    text-shadow: 1px 1px 2px rgba(122, 95, 245, 0.475);
-}
-h2{
-    color: rgb(2, 2, 35);
-}
-p {
     text-align: justify;
+}
+h1 {
+ background-color: rgba(203, 236, 249, 0.936);
+ color: rgb(16, 1, 54);
+}
+h2 {
+    background-color: rgba(203, 236, 249, 0.614);
+ color: rgb(16, 1, 54);
 }
