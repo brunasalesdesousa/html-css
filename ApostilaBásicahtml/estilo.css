@@ -5,6 +5,10 @@
     /*height 100%;*/
 }
 
+header {
+    
+}
+
 body {
     background-image: linear-gradient(to right, rgb(171, 210, 234), rgb(48, 48, 137), rgb(255, 185, 197), rgb(248, 147, 223), rgb(173, 115, 14));
 }
